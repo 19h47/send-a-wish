@@ -1056,7 +1056,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Un weekend avec la personne que tu aimes',
+		content: 'Un week-end avec la personne que tu aimes',
 		value: 1,
 	},
 	{
