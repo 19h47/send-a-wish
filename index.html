@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Send a wish</title>
+
+	<link rel="icon" href="favicons/thumb-up.png" />
+
+	<meta property="og:url" content="http://www.send-a-wish.19h47.fr/" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Send a wish" />
+	<meta property="og:description" content="365 wishes by ines a & 19h47" />
+	<meta property="og:image" content="<%= require( 'img/jpg/open-graph-image.jpg' ) %>" />
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,500" rel="stylesheet">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11187455-6"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag(){
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+		gtag('config', 'UA-11187455-6');
+	</script>
+
+</head>
+<body>
+	<div style="display: none;">
+		<% if (htmlWebpackPlugin.files.sprites) { %>
+			<% for (var spriteFileName in htmlWebpackPlugin.files.sprites) { %>
+				<%= htmlWebpackPlugin.files.sprites[spriteFileName] %>
+			<% } %>
+		<% } %>
+	</div>
+	<div id="app"></div>
+</body>
+</html>
