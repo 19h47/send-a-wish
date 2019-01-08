@@ -76,14 +76,24 @@ export default {
 		share(element) {
 			html2canvas(element)
 				.then((canvas) => {
+					const link = document.createElement('a');
 					this.canvas = canvas.toDataURL('image/png');
 
-					const tab = window.open();
+					// const tab = window.open();
 
-					tab.document.body.style.margin = '0px';
-					tab.document.body.style.padding = '0px';
+					// tab.document.body.style.margin = '0px';
+					// tab.document.body.style.padding = '0px';
 
-					tab.document.body.innerHTML = `<img src="${this.canvas}" width="${window.innerWidth}" height="${window.innerHeight}">`;
+					// tab.document.body.innerHTML = `
+					// 	<img
+					// 		src="${this.canvas}"
+					// 		width="${window.innerWidth}"
+					// 		height="${window.innerHeight}">
+					// `;
+
+					link.download = 'send-a-wish.png';
+					link.href = this.canvas;
+					link.click();
 				});
 		},
 	},

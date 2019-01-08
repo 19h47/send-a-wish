@@ -672,7 +672,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De vivre jusqu\'à 122, 5 mois, et 14 jours... WAIT',
+		content: 'De vivre jusqu\'à 122 ans, 5 mois, et 14 jours... WAIT',
 		value: 1,
 	},
 	{
@@ -1300,7 +1300,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Un filtre anti-con',
+		content: 'Un filtre anti-cons',
 		value: 1,
 	},
 	{

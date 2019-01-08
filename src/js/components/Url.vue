@@ -22,7 +22,7 @@ export default {
 		...mapState(['wish']),
 		envelope() {
 			// eslint-disable-next-line
-			return `mailto:?subject=Send a wich&body=Je te souhaite : ${this.$store.getters.wish}`;
+			return `mailto:?subject=Send a wish&body=Je te souhaite : ${this.$store.getters.wish}%0D%0A%0D%0A – %0D%0A Amusez vous ! Vous aussi envoyez vos vœux -> ${window.URL}`;
 		},
 		facebook() {
 			return `https://www.facebook.com/sharer/sharer.php?u=${window.URL}&quote=${this.$store.getters.wish}`;
