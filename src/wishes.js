@@ -292,7 +292,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Une boite mail qui fonctionne',
+		content: 'Une boîte mail qui fonctionne',
 		value: 1,
 	},
 	{
