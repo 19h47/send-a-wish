@@ -712,7 +712,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Des filles nues qui se jette sur toi et arrachent ta vertu',
+		content: 'Des filles nues qui se jettent sur toi et arrachent ta vertu',
 		value: 1,
 	},
 	{
