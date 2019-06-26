@@ -1,7 +1,7 @@
-import wishes from '@/wishes';
-
 import Vuex from 'vuex';
 import Vue from 'vue';
+
+import wishes from '@/wishes';
 
 Vue.use(Vuex);
 
