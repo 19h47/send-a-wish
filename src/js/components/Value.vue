@@ -18,13 +18,13 @@ export default {
 		...mapState(['value']),
 	},
 	watch: {
-		value(val) {
+		value(val = false) {
 			const link = document.querySelector("link[rel*='icon']");
+
+			link.href = 'favicons/thumb-down.png';
 
 			if (val) {
 				link.href = 'favicons/thumb-up.png';
-			} else {
-				link.href = 'favicons/thumb-down.png';
 			}
 		},
 	},

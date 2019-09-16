@@ -8,7 +8,7 @@
 const path = require('path');
 
 // Plugins
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
@@ -24,7 +24,7 @@ module.exports = {
 	devServer: {
 		contentBase: resolve('dist'),
 		compress: true,
-		port: 9000,
+		port: 3000,
 		inline: true,
 	},
 	externals: {
@@ -171,13 +171,13 @@ module.exports = {
 				options: {
 					mozjpeg: {
 						progressive: true,
-						quality: 65
+						quality: [65]
 					},
 					optipng: {
 						enabled: false
 					},
 					pngquant: {
-						quality: '65-90',
+						quality: [0.65, 0.90],
 						speed: 4
 					},
 					gifsicle: {
@@ -188,9 +188,7 @@ module.exports = {
 		}]
 	},
 	plugins: [
-		new CleanWebpackPlugin(['dist'], {
-			root: resolve('')
-		}),
+		new CleanWebpackPlugin(),
 		new CopyWebpackPlugin([{
 			from: resolve('src/favicons' ),
 			to: 'favicons'
