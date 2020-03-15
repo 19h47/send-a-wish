@@ -75,7 +75,7 @@ export default {
 	methods: {
 		share(element) {
 			html2canvas(element)
-				.then((canvas) => {
+				.then(canvas => {
 					const link = document.createElement('a');
 					this.canvas = canvas.toDataURL('image/png');
 

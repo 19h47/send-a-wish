@@ -1,7 +1,7 @@
 <template>
 	<transition name="fade" mode="out-in" appear>
-		<img v-if="$store.getters['value']" src="@/img/png/thumb-up.png"/>
-		<img v-else src="@/img/png/thumb-down.png"/>
+		<img v-if="$store.getters['value']" :src="thumbUp"/>
+		<img v-else :src="thumbDown"/>
 	</transition>
 </template>
 
@@ -9,10 +9,16 @@
 
 import { mapState } from 'vuex';
 
+import thumbUp from '@/img/png/thumb-up.png';
+import thumbDown from '@/img/png/thumb-down.png';
+
 export default {
 	name: 'Value',
 	data() {
-		return {};
+		return {
+			thumbUp,
+			thumbDown,
+		};
 	},
 	computed: {
 		...mapState(['value']),

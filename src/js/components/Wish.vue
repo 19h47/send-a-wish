@@ -17,7 +17,7 @@
 <script>
 
 import { mapState } from 'vuex';
-import { TweenMax } from 'gsap';
+import gsap from 'gsap';
 import SplitText from 'Vendors/SplitText';
 
 export default {
@@ -27,23 +27,25 @@ export default {
 		enter(el, done) {
 			const splitText = this.split(el);
 
-			TweenMax.staggerFromTo(
+			gsap.fromTo(
 				splitText.chars,
-				1,
 				{ y: 10, autoAlpha: 0 },
-				{ y: 0, autoAlpha: 1 },
-				0.05,
-				() => done(),
+				{
+					y: 0,
+					autoAlpha: 1,
+					stagger: 0.05,
+					onComplete: done,
+				},
 			);
 		},
 		leave(el, done) {
-			TweenMax.to(
+			gsap.to(
 				el,
-				0.7,
 				{
 					autoAlpha: 0,
 					y: -5,
 					onComplete: done,
+					stagger: 0.7,
 				},
 			);
 		},

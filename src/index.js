@@ -4,4 +4,3 @@ require('js/app');
 
 require.context('icons/', true);
 require.context('jpg/', true);
-require.context('png/', true);

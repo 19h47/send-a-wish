@@ -6,7 +6,7 @@ module.exports = {
 	},
 	extends: ['airbnb-base', 'plugin:vue/essential'],
 	rules: {
-		'arrow-parens': 0,
+		'arrow-parens': ['error', 'as-needed'],
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-tabs': 0,
