@@ -1,12 +1,11 @@
 <template>
 	<transition name="fade" mode="out-in" appear>
-		<img v-if="$store.getters['value']" :src="thumbUp"/>
-		<img v-else :src="thumbDown"/>
+		<img v-if="$store.getters['value']" :src="thumbUp" />
+		<img v-else :src="thumbDown" />
 	</transition>
 </template>
 
 <script>
-
 import { mapState } from 'vuex';
 
 import thumbUp from '@/img/png/thumb-up.png';
@@ -35,18 +34,18 @@ export default {
 		},
 	},
 };
-
 </script>
 
 <style lang="scss" scoped>
-	img {
-		width: 30px;
-		height: 30px;
-	}
-	.fade-enter-active, .fade-leave-active {
-		transition: opacity 0.5s;
-	}
-	.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-		opacity: 0;
-	}
+img {
+	width: 30px;
+	height: 30px;
+}
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+	opacity: 0;
+}
 </style>

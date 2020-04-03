@@ -1,9 +1,5 @@
 <template>
-	<transition
-		v-on:enter="enter"
-		v-on:leave="leave"
-		mode="out-in"
-	>
+	<transition v-on:enter="enter" v-on:leave="leave" mode="out-in">
 		<div
 			v-if="wish()"
 			class="h3"
@@ -15,7 +11,6 @@
 </template>
 
 <script>
-
 import { mapState } from 'vuex';
 import gsap from 'gsap';
 import SplitText from 'Vendors/SplitText';
@@ -39,15 +34,12 @@ export default {
 			);
 		},
 		leave(el, done) {
-			gsap.to(
-				el,
-				{
-					autoAlpha: 0,
-					y: -5,
-					onComplete: done,
-					stagger: 0.7,
-				},
-			);
+			gsap.to(el, {
+				autoAlpha: 0,
+				y: -5,
+				onComplete: done,
+				stagger: 0.7,
+			});
 		},
 		split(text) {
 			return new SplitText(text, {
@@ -59,5 +51,4 @@ export default {
 		},
 	},
 };
-
 </script>
