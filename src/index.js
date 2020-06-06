@@ -1,4 +1,7 @@
-window.URL = process.env.NODE_ENV === 'production' ? 'http://send-a-wish.19h47.fr/' : 'http://localhost:9000/';
+window.URL =
+	process.env.NODE_ENV === 'production'
+		? 'http://send-a-wish.19h47.fr/'
+		: 'http://localhost:3000/';
 
 require('js/app');
 

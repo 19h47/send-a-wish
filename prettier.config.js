@@ -1,1 +1,1 @@
-module.exports = require("@upstatement/prettier-config/four-tabs");
+module.exports = require('@19h47/prettier-config');

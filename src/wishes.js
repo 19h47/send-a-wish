@@ -4,7 +4,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De l\'amour',
+		content: "De l'amour",
 		value: 1,
 	},
 	{
@@ -16,7 +16,7 @@ export default [
 		value: 0,
 	},
 	{
-		content: 'Un peu plus d\'humour',
+		content: "Un peu plus d'humour",
 		value: 0,
 	},
 	{
@@ -32,7 +32,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être heureux',
+		content: "D'être heureux",
 		value: 1,
 	},
 	{
@@ -108,11 +108,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être amoureux de ta femme',
+		content: "D'être amoureux de ta femme",
 		value: 0,
 	},
 	{
-		content: 'D\'être amoureux de ton homme',
+		content: "D'être amoureux de ton homme",
 		value: 0,
 	},
 	{
@@ -140,7 +140,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De l\'ambition',
+		content: "De l'ambition",
 		value: 1,
 	},
 	{
@@ -152,7 +152,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Plus d\'argent pour le réinjecter dans la com\'',
+		content: "Plus d'argent pour le réinjecter dans la com'",
 		value: 1,
 	},
 	{
@@ -168,7 +168,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Un bon verre de Bailey\'s ça te fera du bien',
+		content: "Un bon verre de Bailey's ça te fera du bien",
 		value: 1,
 	},
 	{
@@ -212,7 +212,7 @@ export default [
 		value: 0,
 	},
 	{
-		content: 'D\'apprendre la diplomatie',
+		content: "D'apprendre la diplomatie",
 		value: 0,
 	},
 	{
@@ -224,19 +224,19 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Plus d\'empathie',
+		content: "Plus d'empathie",
 		value: 1,
 	},
 	{
-		content: 'Moins d\'empathie',
+		content: "Moins d'empathie",
 		value: 1,
 	},
 	{
-		content: 'Plus de chips (parce qu\'il ne faut pas boire à jeun)',
+		content: "Plus de chips (parce qu'il ne faut pas boire à jeun)",
 		value: 1,
 	},
 	{
-		content: 'Moins d\'engeulades avec ta femme',
+		content: "Moins d'engeulades avec ta femme",
 		value: 1,
 	},
 	{
@@ -256,15 +256,15 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'La richesse. Ok, c\'est vain mais ça peut toujours servir',
+		content: "La richesse. Ok, c'est vain mais ça peut toujours servir",
 		value: 1,
 	},
 	{
-		content: 'Un peu moins d\'humilité',
+		content: "Un peu moins d'humilité",
 		value: 1,
 	},
 	{
-		content: 'Un peu plus d\'humilité',
+		content: "Un peu plus d'humilité",
 		value: 0,
 	},
 	{
@@ -272,7 +272,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter d\'utiliser Internet Explorer',
+		content: "D'arrêter d'utiliser Internet Explorer",
 		value: 0,
 	},
 	{
@@ -280,7 +280,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'apprendre à utiliser Cmd+Maj+N',
+		content: "D'apprendre à utiliser Cmd+Maj+N",
 		value: 1,
 	},
 	{
@@ -312,11 +312,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Des idées parce que celles de l\'année dernière étaient à chier',
+		content: "Des idées parce que celles de l'année dernière étaient à chier",
 		value: 0,
 	},
 	{
-		content: 'La santé parce que tu n\'as pas été gâté',
+		content: "La santé parce que tu n'as pas été gâté",
 		value: 1,
 	},
 	{
@@ -332,7 +332,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Plus de sauce, c\'est un peu sec',
+		content: "Plus de sauce, c'est un peu sec",
 		value: 1,
 	},
 	{
@@ -348,7 +348,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Un lapin (c\'est beaucoup d\'amour)',
+		content: "Un lapin (c'est beaucoup d'amour)",
 		value: 1,
 	},
 	{
@@ -360,15 +360,15 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De l\'imagination. Je sais que tu en es capable',
+		content: "De l'imagination. Je sais que tu en es capable",
 		value: 1,
 	},
 	{
-		content: 'Moins d\'imagination. J\'ai besoin de dormir',
+		content: "Moins d'imagination. J'ai besoin de dormir",
 		value: 1,
 	},
 	{
-		content: 'Être au boulot, l\'artiste que tu es au lit',
+		content: "Être au boulot, l'artiste que tu es au lit",
 		value: 1,
 	},
 	{
@@ -376,11 +376,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De prendre des vacances, t\'es tout gris',
+		content: "De prendre des vacances, t'es tout gris",
 		value: 1,
 	},
 	{
-		content: 'D\'être moins con #pleasedo',
+		content: "D'être moins con #pleasedo",
 		value: 0,
 	},
 	{
@@ -396,11 +396,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'aimer ton prochain pas celui des autres',
+		content: "D'aimer ton prochain pas celui des autres",
 		value: 0,
 	},
 	{
-		content: '365 résolutions mais tu n\'en es pas une',
+		content: "365 résolutions mais tu n'en es pas une",
 		value: 1,
 	},
 	{
@@ -412,7 +412,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter de dire que tu n\'as pas eu le temps. Tu ne l\'as pas pris',
+		content: "D'arrêter de dire que tu n'as pas eu le temps. Tu ne l'as pas pris",
 		value: 1,
 	},
 	{
@@ -420,7 +420,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'aimer son prochain. Ok, celle-là, elle est pompée',
+		content: "D'aimer son prochain. Ok, celle-là, elle est pompée",
 		value: 1,
 	},
 	{
@@ -440,7 +440,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter d\'utiliser le terme "bug" quand il s\'agit d\'un problème d\'affichage',
+		content: "D'arrêter d'utiliser le terme \"bug\" quand il s'agit d'un problème d'affichage",
 		value: 0,
 	},
 	{
@@ -452,7 +452,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Un mec fidèle qui n\'a pas peur qu\'on l\'aime',
+		content: "Un mec fidèle qui n'a pas peur qu'on l'aime",
 		value: 1,
 	},
 	{
@@ -468,11 +468,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'éviter un contrôle fiscal',
+		content: "D'éviter un contrôle fiscal",
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter de fumer. T\'as la voix de Zaz et c\'est pas chic',
+		content: "D'arrêter de fumer. T'as la voix de Zaz et c'est pas chic",
 		value: 0,
 	},
 	{
@@ -500,7 +500,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\' arrêter de croire au Père Noël : tu ne feras jamais un site correct avec Wix',
+		content: "D' arrêter de croire au Père Noël : tu ne feras jamais un site correct avec Wix",
 		value: 1,
 	},
 	{
@@ -512,19 +512,19 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Une histoire d\'amour avec Ryan Gosling',
+		content: "Une histoire d'amour avec Ryan Gosling",
 		value: 1,
 	},
 	{
-		content: 'Une histoire d\'amour avec Colin Farrell',
+		content: "Une histoire d'amour avec Colin Farrell",
 		value: 1,
 	},
 	{
-		content: 'Une histoire d\'amour avec Natalie Portman',
+		content: "Une histoire d'amour avec Natalie Portman",
 		value: 1,
 	},
 	{
-		content: 'Une histoire d\'amour avec Scarlett Johansson - si t\'aime les blondes',
+		content: "Une histoire d'amour avec Scarlett Johansson - si t'aime les blondes",
 		value: 1,
 	},
 	{
@@ -532,7 +532,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De l\'oublier avec un·e autre',
+		content: "De l'oublier avec un·e autre",
 		value: 1,
 	},
 	{
@@ -540,11 +540,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De boire du meilleur vin que l\'année passée',
+		content: "De boire du meilleur vin que l'année passée",
 		value: 1,
 	},
 	{
-		content: 'D\'acheter un protège volant pour ta voiture - rose',
+		content: "D'acheter un protège volant pour ta voiture - rose",
 		value: 1,
 	},
 	{
@@ -552,15 +552,15 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Moins de déjeuner d\'affaire',
+		content: "Moins de déjeuner d'affaire",
 		value: 0,
 	},
 	{
-		content: 'Plus de déjeuner d\'affaire',
+		content: "Plus de déjeuner d'affaire",
 		value: 1,
 	},
 	{
-		content: 'L\'humour de Dieudonné',
+		content: "L'humour de Dieudonné",
 		value: 1,
 	},
 	{
@@ -604,7 +604,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être plus drôle que l\'année dernière',
+		content: "D'être plus drôle que l'année dernière",
 		value: 1,
 	},
 	{
@@ -640,7 +640,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De rencontrer l\'amour sur un rond-point',
+		content: "De rencontrer l'amour sur un rond-point",
 		value: 1,
 	},
 	{
@@ -664,15 +664,15 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De vivre jusqu\'à 90 ans',
+		content: "De vivre jusqu'à 90 ans",
 		value: 1,
 	},
 	{
-		content: 'De vivre jusqu\'à 100 ans',
+		content: "De vivre jusqu'à 100 ans",
 		value: 1,
 	},
 	{
-		content: 'De vivre jusqu\'à 122 ans, 5 mois, et 14 jours... WAIT',
+		content: "De vivre jusqu'à 122 ans, 5 mois, et 14 jours... WAIT",
 		value: 1,
 	},
 	{
@@ -700,15 +700,15 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Une compréhension de l\'algorithme de Google',
+		content: "Une compréhension de l'algorithme de Google",
 		value: 1,
 	},
 	{
-		content: 'Une compréhension de l\'algorithme de Facebook',
+		content: "Une compréhension de l'algorithme de Facebook",
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter la duplication de contenu',
+		content: "D'arrêter la duplication de contenu",
 		value: 1,
 	},
 	{
@@ -748,11 +748,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Des hommes comme s\'il en pleuvait',
+		content: "Des hommes comme s'il en pleuvait",
 		value: 1,
 	},
 	{
-		content: 'Des femmes comme s\'il en pleuvait',
+		content: "Des femmes comme s'il en pleuvait",
 		value: 1,
 	},
 	{
@@ -784,7 +784,7 @@ export default [
 		value: 0,
 	},
 	{
-		content: 'L\'homme parfait',
+		content: "L'homme parfait",
 		value: 1,
 	},
 	{
@@ -816,7 +816,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Une fille aux yeux menthe à l\'eau',
+		content: "Une fille aux yeux menthe à l'eau",
 		value: 1,
 	},
 	{
@@ -824,7 +824,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De l\'endurance',
+		content: "De l'endurance",
 		value: 1,
 	},
 	{
@@ -836,7 +836,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'oublier tes complexes',
+		content: "D'oublier tes complexes",
 		value: 1,
 	},
 	{
@@ -892,7 +892,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Tomber en panne sur l\'autoroute avec Megan Fox',
+		content: "Tomber en panne sur l'autoroute avec Megan Fox",
 		value: 1,
 	},
 	{
@@ -924,7 +924,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être moins lourd·e',
+		content: "D'être moins lourd·e",
 		value: 0,
 	},
 	{
@@ -936,7 +936,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De passer la moitié de ta vie en l\'air entre New York et Singapour',
+		content: "De passer la moitié de ta vie en l'air entre New York et Singapour",
 		value: 1,
 	},
 	{
@@ -960,7 +960,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être un homme heureux',
+		content: "D'être un homme heureux",
 		value: 1,
 	},
 	{
@@ -968,7 +968,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être beau comme un enfant, fort comme un homme',
+		content: "D'être beau comme un enfant, fort comme un homme",
 		value: 1,
 	},
 	{
@@ -992,7 +992,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Une balançoire d\'intérieur',
+		content: "Une balançoire d'intérieur",
 		value: 1,
 	},
 	{
@@ -1000,7 +1000,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être heureux, malheureux',
+		content: "D'être heureux, malheureux",
 		value: 1,
 	},
 	{
@@ -1024,7 +1024,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Une femme qui t\'aime autant que ta mère',
+		content: "Une femme qui t'aime autant que ta mère",
 		value: 1,
 	},
 	{
@@ -1036,7 +1036,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'apprendre à marcher avec des talons hauts',
+		content: "D'apprendre à marcher avec des talons hauts",
 		value: 1,
 	},
 	{
@@ -1044,11 +1044,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être moins insistant. Ce n\'est pas comme ça que ça marche',
+		content: "D'être moins insistant. Ce n'est pas comme ça que ça marche",
 		value: 0,
 	},
 	{
-		content: 'Une année sans t\'ennuyer une seule minute',
+		content: "Une année sans t'ennuyer une seule minute",
 		value: 1,
 	},
 	{
@@ -1088,11 +1088,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter d\'être un rageux',
+		content: "D'arrêter d'être un rageux",
 		value: 0,
 	},
 	{
-		content: 'D\'être moins seul·e',
+		content: "D'être moins seul·e",
 		value: 1,
 	},
 	{
@@ -1100,7 +1100,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être à l\'heure',
+		content: "D'être à l'heure",
 		value: 1,
 	},
 	{
@@ -1128,7 +1128,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Que la joie t\'innonde',
+		content: "Que la joie t'innonde",
 		value: 1,
 	},
 	{
@@ -1136,7 +1136,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Du courage, tu n\'en manques pas',
+		content: "Du courage, tu n'en manques pas",
 		value: 1,
 	},
 	{
@@ -1144,7 +1144,7 @@ export default [
 		value: 0,
 	},
 	{
-		content: 'Des aventures c\'est un peu plat en ce moment',
+		content: "Des aventures c'est un peu plat en ce moment",
 		value: 0,
 	},
 	{
@@ -1156,7 +1156,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De rentrer dans l\'moule',
+		content: "De rentrer dans l'moule",
 		value: 1,
 	},
 	{
@@ -1172,15 +1172,15 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Une meilleure résistance à l\'âge que Britney Spears',
+		content: "Une meilleure résistance à l'âge que Britney Spears",
 		value: 1,
 	},
 	{
-		content: 'D\'être plus drôle que le jury de la Nouvelle Star',
+		content: "D'être plus drôle que le jury de la Nouvelle Star",
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter le franglais',
+		content: "D'arrêter le franglais",
 		value: 1,
 	},
 	{
@@ -1188,11 +1188,11 @@ export default [
 		value: 0,
 	},
 	{
-		content: 'D\'arrêter les Boomerang sur Instagram. C\'est lourd et vraiment has-been',
+		content: "D'arrêter les Boomerang sur Instagram. C'est lourd et vraiment has-been",
 		value: 0,
 	},
 	{
-		content: 'D\'arrêter de te prendre pour un coach',
+		content: "D'arrêter de te prendre pour un coach",
 		value: 0,
 	},
 	{
@@ -1200,7 +1200,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Moins d\'aggressivité. Moi aussi je peux mordre',
+		content: "Moins d'aggressivité. Moi aussi je peux mordre",
 		value: 1,
 	},
 	{
@@ -1208,7 +1208,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être aussi beau à l\'intérieur qu\'à l\'extérieur',
+		content: "D'être aussi beau à l'intérieur qu'à l'extérieur",
 		value: 1,
 	},
 	{
@@ -1216,7 +1216,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De t\'aimer comme tu es',
+		content: "De t'aimer comme tu es",
 		value: 1,
 	},
 	{
@@ -1248,7 +1248,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Un distributeur infini de M&M\'s',
+		content: "Un distributeur infini de M&M's",
 		value: 1,
 	},
 	{
@@ -1260,11 +1260,11 @@ export default [
 		value: 0,
 	},
 	{
-		content: 'Des cycles de concentration d\'1h30',
+		content: "Des cycles de concentration d'1h30",
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter de picoler et de te mettre à l\'œnologie',
+		content: "D'arrêter de picoler et de te mettre à l'œnologie",
 		value: 1,
 	},
 	{
@@ -1284,7 +1284,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être comme le Comté, meilleur en vieillissant',
+		content: "D'être comme le Comté, meilleur en vieillissant",
 		value: 1,
 	},
 	{
@@ -1304,7 +1304,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'L\'amour une fois par jour',
+		content: "L'amour une fois par jour",
 		value: 1,
 	},
 	{
@@ -1332,7 +1332,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Une nouvelle carte de visite, l\'actuelle est moche',
+		content: "Une nouvelle carte de visite, l'actuelle est moche",
 		value: 1,
 	},
 	{
@@ -1340,7 +1340,8 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'Une bière et du saucisson après le boulot parce que ça va vachement bien ensemble',
+		content:
+			'Une bière et du saucisson après le boulot parce que ça va vachement bien ensemble',
 		value: 1,
 	},
 	{
@@ -1356,7 +1357,8 @@ export default [
 		value: 0,
 	},
 	{
-		content: 'Arrêté de te faire des couleurs. Ça abime tes cheveux et tout le monde sait que tu es une fausse blonde',
+		content:
+			'Arrêté de te faire des couleurs. Ça abime tes cheveux et tout le monde sait que tu es une fausse blonde',
 		value: 0,
 	},
 	{
@@ -1368,11 +1370,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'être la future miss France',
+		content: "D'être la future miss France",
 		value: 1,
 	},
 	{
-		content: 'D\'augmenter ta masse musculaire',
+		content: "D'augmenter ta masse musculaire",
 		value: 1,
 	},
 	{
@@ -1400,11 +1402,11 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'De faire ce qui te plaît et rien d\'autre',
+		content: "De faire ce qui te plaît et rien d'autre",
 		value: 1,
 	},
 	{
-		content: 'De t\'écouter',
+		content: "De t'écouter",
 		value: 1,
 	},
 	{
@@ -1420,19 +1422,20 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'avoir la fève, tu le mérites',
+		content: "D'avoir la fève, tu le mérites",
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter de te cacher, on t\'a vu en vert sur Slack',
+		content: "D'arrêter de te cacher, on t'a vu en vert sur Slack",
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter de te prendre pour un DA, t\'es développeur',
+		content: "D'arrêter de te prendre pour un DA, t'es développeur",
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter de te prendre pour un graphiste parce que tu sais utiliser un logiciel de présentation',
+		content:
+			"D'arrêter de te prendre pour un graphiste parce que tu sais utiliser un logiciel de présentation",
 		value: 1,
 	},
 	{
@@ -1440,15 +1443,15 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter de te fier aux analytics Facebook',
+		content: "D'arrêter de te fier aux analytics Facebook",
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter de perdre ton temps sur internet',
+		content: "D'arrêter de perdre ton temps sur internet",
 		value: 1,
 	},
 	{
-		content: 'D\'arrêter de te ballader nu chez toi. Les voisins ont des yeux',
+		content: "D'arrêter de te ballader nu chez toi. Les voisins ont des yeux",
 		value: 1,
 	},
 	{
@@ -1456,7 +1459,7 @@ export default [
 		value: 1,
 	},
 	{
-		content: 'D\'aimer ta vie',
+		content: "D'aimer ta vie",
 		value: 1,
 	},
 ];

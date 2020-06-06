@@ -16,8 +16,8 @@ const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const WebpackNotifierPlugin = require('webpack-notifier');
 
-function resolve (dir) {
-	return path.join(__dirname, '..', dir)
+function resolve(dir) {
+	return path.join(__dirname, '..', dir);
 }
 
 module.exports = {
@@ -28,19 +28,19 @@ module.exports = {
 		inline: true,
 	},
 	externals: {
-		'jquery': 'jQuery',
-		'jQuery': 'jQuery',
-		'$': 'jQuery',
+		jquery: 'jQuery',
+		jQuery: 'jQuery',
+		$: 'jQuery',
 	},
 	optimization: {
 		splitChunks: {
-			name: 'common'
-		}
+			name: 'common',
+		},
 	},
 	resolve: {
 		alias: {
 			'@': resolve('src'),
-			'vue$': 'vue/dist/vue.esm.js',
+			vue$: 'vue/dist/vue.esm.js',
 
 			// js
 			js: resolve('src/js'),
@@ -73,128 +73,145 @@ module.exports = {
 			fonts: resolve('src/fonts'),
 
 			// stylesheets
-			stylesheets: resolve('src/stylesheets')
-		}
+			stylesheets: resolve('src/stylesheets'),
+		},
 	},
 	module: {
-		rules: [{
-			   test: /\.vue$/,
-			   loader: 'vue-loader'
-		},
-		{
-			enforce: 'pre',
-			test: /\.(js|vue)$/,
-			exclude: [/node_modules/, /vendors/],
-			loader: 'eslint-loader',
-		},
-		{
-			test: /\.js$/,
-			exclude: /node_modules/,
-			loader: 'babel-loader'
-		},
-		{
-			test: /\.(woff2?|eot|ttf|otf|woff|svg)?$/,
-			exclude: [/img/, /icons/],
-			use: [{
-				loader: 'file-loader',
-				options: {
-					name: '[name].[ext]',
-					outputPath: 'fonts/',
-					publicPath: '../fonts/',
-				},
-
-			}]
-		},
-		{
-			test: /\.svg$/,
-			exclude: [/img/, /fonts/],
-			use: [{
-				loader: 'svg-sprite-loader',
-				options: {
-					spriteFilename: 'icons.svg',
-					extract: true
-				}
-			},
-			'svg-transform-loader',
-			'svgo-loader'
-		]},
-		{
-			test: /\.svg$/,
-			exclude: [/fonts/, /icons/],
-			use: [{
-				loader: 'file-loader',
-				options: {
-					outputPath: 'img/svg'
-				}
+		rules: [
+			{
+				test: /\.vue$/,
+				loader: 'vue-loader',
 			},
 			{
-				loader: 'svgo-loader',
-				options: {
-					plugins: [{
-						removeTitle: true
-					},
-					{
-						convertColors: {
-							shorthex: false
-						}
-					},
-					{
-						convertPathData: false
-					}]
-				}
-			}]
-		},
-		{
-			test: /\.(mp4|webm|ogg|mp3|wav|flac|aac|ogv)(\?.*)?$/,
-			use: [{
-				loader: 'url-loader',
-				options: {
-					limit: 100000,
-					name: '[name].[ext]',
-					publicPath: resolve('src/videos'),
-					outputPath: 'videos/',
-				}
-			}]
-		},
-		{
-			test: /\.(gif|png|jpe?g)$/i,
-			use: [{
-				loader: 'file-loader',
-				options: {
-					outputPath: 'img/',
-					name: '[ext]/[hash].[ext]',
-					// publicPath: '../img/',
-				},
+				enforce: 'pre',
+				test: /\.(js|vue)$/,
+				exclude: [/node_modules/, /vendors/],
+				loader: 'eslint-loader',
 			},
 			{
-				loader: 'image-webpack-loader',
-				options: {
-					mozjpeg: {
-						progressive: true,
-						quality: [65]
+				test: /\.js$/,
+				exclude: /node_modules/,
+				loader: 'babel-loader',
+			},
+			{
+				test: /\.(woff2?|eot|ttf|otf|woff|svg)?$/,
+				exclude: [/img/, /icons/],
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							name: '[name].[ext]',
+							outputPath: 'fonts/',
+							publicPath: '../fonts/',
+						},
 					},
-					optipng: {
-						enabled: false
+				],
+			},
+			{
+				test: /\.svg$/,
+				exclude: [/img/, /fonts/],
+				use: [
+					{
+						loader: 'svg-sprite-loader',
+						options: {
+							spriteFilename: 'icons.svg',
+							extract: true,
+						},
 					},
-					pngquant: {
-						quality: [0.65, 0.90],
-						speed: 4
+					'svg-transform-loader',
+					'svgo-loader',
+				],
+			},
+			{
+				test: /\.svg$/,
+				exclude: [/fonts/, /icons/],
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							outputPath: 'img/svg',
+						},
 					},
-					gifsicle: {
-						interlaced: false
-					}
-				}
-			}]
-		}]
+					{
+						loader: 'svgo-loader',
+						options: {
+							plugins: [
+								{
+									removeTitle: true,
+								},
+								{
+									convertColors: {
+										shorthex: false,
+									},
+								},
+								{
+									convertPathData: false,
+								},
+							],
+						},
+					},
+				],
+			},
+			{
+				test: /\.(mp4|webm|ogg|mp3|wav|flac|aac|ogv)(\?.*)?$/,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							limit: 100000,
+							name: '[name].[ext]',
+							publicPath: resolve('src/videos'),
+							outputPath: 'videos/',
+						},
+					},
+				],
+			},
+			{
+				test: /\.(gif|png|jpe?g)$/i,
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							outputPath: 'img/',
+							name: '[ext]/[hash].[ext]',
+							// publicPath: '../img/',
+						},
+					},
+					{
+						loader: 'image-webpack-loader',
+						options: {
+							mozjpeg: {
+								progressive: true,
+								quality: [65],
+							},
+							optipng: {
+								enabled: false,
+							},
+							pngquant: {
+								quality: [0.65, 0.9],
+								speed: 4,
+							},
+							gifsicle: {
+								interlaced: false,
+							},
+						},
+					},
+				],
+			},
+		],
 	},
 	plugins: [
 		new CleanWebpackPlugin(),
-		new CopyWebpackPlugin([{
-			from: resolve('src/favicons' ),
-			to: 'favicons'
-		}]),
+		new CopyWebpackPlugin({
+			patterns: [
+				{
+					from: resolve('src/favicons'),
+					to: 'favicons',
+				},
+			],
+		}),
 		new HtmlWebpackPlugin({
-			template: resolve('index.html' ),
+			template: resolve('index.html'),
 		}),
 		new ManifestPlugin(),
 		new SpriteLoaderPlugin({ plainSprite: true }),
@@ -202,7 +219,7 @@ module.exports = {
 		new WebpackNotifierPlugin({
 			title: 'Webpack',
 			excludeWarnings: true,
-			alwaysNotify: true
+			alwaysNotify: true,
 		}),
 	],
 };
