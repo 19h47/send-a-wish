@@ -26,10 +26,10 @@ export default {
 		value(val = false) {
 			const link = document.querySelector("link[rel*='icon']");
 
-			link.href = 'favicons/thumb-down.png';
+			link.href = '/thumb-down.png';
 
 			if (val) {
-				link.href = 'favicons/thumb-up.png';
+				link.href = '/thumb-up.png';
 			}
 		},
 	},
