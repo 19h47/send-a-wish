@@ -13,7 +13,7 @@
 <script>
 import { mapState } from 'vuex';
 import gsap from 'gsap';
-import SplitText from 'Vendors/SplitText';
+import SplitText from '@/vendors/SplitText';
 
 export default {
 	name: 'Wish',

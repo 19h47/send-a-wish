@@ -64,9 +64,11 @@
 </template>
 
 <script>
-import wish from 'Components/Wish.vue';
-import value from 'Components/Value.vue';
-import url from 'Components/Url.vue';
+const wish = () =>
+	import(/* webpackChunkName: "wish" */ '@/components/Wish.vue').then(c => c.default);
+const value = () =>
+	import(/* webpackChunkName: "value" */ '@/components/Value.vue').then(c => c.default);
+const url = () => import(/* webpackChunkName: "url" */ '@/components/Url.vue').then(c => c.default);
 
 import html2canvas from 'html2canvas';
 

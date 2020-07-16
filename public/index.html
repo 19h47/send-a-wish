@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title><%= htmlWebpackPlugin.options.title %></title>
+
+		<link rel="icon" href="<%= BASE_URL %>thumb-up.png" />
+
+		<meta property="og:url" content="<%= BASE_URL %>" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Send a wish" />
+		<meta property="og:description" content="365 wishes by ines a & 19h47" />
+		<meta property="og:image" content="<%= BASE_URL %>open-graph-image.jpg" />
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,500" rel="stylesheet" />
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11187455-6"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+
+			gtag('js', new Date());
+			gtag('config', 'UA-11187455-6');
+		</script>
+	</head>
+	<body>
+		<noscript>
+			<strong
+				>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly
+				without JavaScript enabled. Please enable it to continue.</strong
+			>
+		</noscript>
+		<div id="app"></div>
+	</body>
+</html>
