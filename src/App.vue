@@ -6,9 +6,9 @@
 		<div class="container" ref="canvas">
 			<transition name="fade" mode="out-in" appear>
 				<div v-if="!showWish" key="button">
-					<h1 style="line-height: 30px;">
+					<h1 style="line-height: 30px">
 						365 wishes<br />
-						<span style="font-size: 18px; font-weight: 300;"
+						<span style="font-size: 18px; font-weight: 300"
 							>by <strong>ines a</strong> & <strong>19h47</strong></span
 						>
 					</h1>
@@ -36,7 +36,7 @@
 						class="button"
 						@click="$store.dispatch('updateAction')"
 						type="button"
-						style="margin-right: 7.5px;"
+						style="margin-right: 7.5px"
 					>
 						Reload
 					</button>
@@ -44,7 +44,7 @@
 						class="button"
 						@click="share($refs.canvas)"
 						type="button"
-						style="margin: 0 15px 0 7.5px;"
+						style="margin: 0 15px 0 7.5px"
 					>
 						Save
 					</button>
@@ -52,7 +52,7 @@
 					<url></url>
 				</div>
 
-				<div class="Footer__column Footer__column--right" style="color: white;">
+				<div class="Footer__column Footer__column--right" style="color: white">
 					<small
 						>By <a href="http://inesa.fr" target="_blank"><strong>ines a</strong></a> &
 						<a href="http://19h47.fr" target="_blank"><strong>19h47</strong></a></small

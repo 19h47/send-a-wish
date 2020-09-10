@@ -3,7 +3,7 @@
 		<div
 			v-if="wish()"
 			class="h3"
-			style="font-weight: 500; line-height: 30px;"
+			style="font-weight: 500; line-height: 30px"
 			v-html="wish()"
 			:key="wish()"
 		></div>
