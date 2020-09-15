@@ -23,14 +23,10 @@ export default {
 		...mapState(['value']),
 	},
 	watch: {
-		value(val = false) {
+		value(value = false) {
 			const link = document.querySelector("link[rel*='icon']");
 
-			link.href = '/thumb-down.png';
-
-			if (val) {
-				link.href = '/thumb-up.png';
-			}
+			link.href = value ? '/thumb-up.png' : '/thumb-down.png';
 		},
 	},
 };
@@ -45,7 +41,8 @@ img {
 .fade-leave-active {
 	transition: opacity 0.5s;
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+.fade-enter,
+.fade-leave-to {
 	opacity: 0;
 }
 </style>

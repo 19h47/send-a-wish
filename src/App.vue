@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<header v-if="showWish">
-			<value></value>
+			<value />
 		</header>
 		<div class="container" ref="canvas">
 			<transition name="fade" mode="out-in" appear>
@@ -24,7 +24,7 @@
 					</button>
 				</div>
 				<div v-if="showWish" key="wish">
-					<wish></wish>
+					<wish />
 				</div>
 			</transition>
 		</div>
@@ -49,7 +49,7 @@
 						Save
 					</button>
 
-					<url></url>
+					<url />
 				</div>
 
 				<div class="Footer__column Footer__column--right" style="color: white">

@@ -1,10 +1,10 @@
 <template>
 	<div>
 		<a :href="envelope" style="margin: 0 7.5px">
-			<svg v-svg symbol="envelope" role="presentation"></svg>
+			<svg v-svg symbol="envelope" role="presentation" />
 		</a>
 		<a :href="facebook" target="_blank" style="margin-left: 7.5px">
-			<svg v-svg symbol="facebook" role="presentation"></svg>
+			<svg v-svg symbol="facebook" role="presentation" />
 		</a>
 	</div>
 </template>
